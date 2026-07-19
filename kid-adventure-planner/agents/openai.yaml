@@ -1,0 +1,14 @@
+interface:
+  display_name: "\u513F\u7AE5\u6210\u957F\u5192\u9669\u65E5\u5386"
+  short_description: "\u628A\u8BFE\u7A0B\u5B89\u6392\u53D8\u6210\u53EF\u8BA1\u65F6\
+    \u3001\u53EF\u540C\u6B65\u3001\u4F1A\u5347\u7EA7\u7684\u6210\u957F\u5192\u9669\
+    \u65E5\u5386"
+  default_prompt: Use $kid-adventure-planner to build a personalized, gamified child
+    schedule with my own theme.
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
